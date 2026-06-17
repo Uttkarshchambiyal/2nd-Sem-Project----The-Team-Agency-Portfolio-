@@ -56,7 +56,8 @@ header{
     width:60px;
     height:60px;
     border-radius:50%;
-    background:#3b82f6;
+    background:
+        3b82f6;
     color:white;
     display:flex;
     justify-content:center;
@@ -76,5 +77,36 @@ header{
     --bg-card:#282828;
     --text:#f0f0f0;
     --accent:#5b9cf6;
+
+/* disha */
+
+[data-theme="light"] { ... }
+
+[data-theme="dark"] { ... }                
+/*disha*/
+section{
+    padding:80px 60px;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:700;
+}
+
+.subtitle{
+    color:var(--accent);
+}
+
+.section-title{
+    font-size:42px;
+}
+
+.btn-primary{
+    background:black;
+    color:white;
+}
+
+.btn-outline{
+    border:1px solid black;
 }
 
