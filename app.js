@@ -29,3 +29,28 @@ myForm.onsubmit = function(event){
     }
 
 };
+
+
+
+//pusj6 - abhi
+
+let bodyTag = document.documentElement;
+
+let toggleButton =
+document.getElementById("theme-toggle");
+
+toggleButton.onclick = function(){
+
+let current =
+bodyTag.getAttribute("data-theme");
+
+if(current==="dark"){
+bodyTag.setAttribute("data-theme","light");
+toggleButton.textContent="🌙";
+}
+else{
+bodyTag.setAttribute("data-theme","dark");
+toggleButton.textContent="☀️";
+}
+
+};
