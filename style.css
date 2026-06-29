@@ -110,3 +110,38 @@ section{
     border:1px solid black;
 }
 
+//abhi
+                     @media(max-width:768px){
+
+.projects-grid,
+.team-grid{
+grid-template-columns:1fr;
+}
+
+header{
+flex-direction:column;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+}
+
+@media(max-width:500px){
+
+section{
+padding:40px 20px;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+.hero-buttons{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+}
