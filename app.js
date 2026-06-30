@@ -1,4 +1,4 @@
-// --- DARK MODE LOGIC ---
+//Sahil --- DARK MODE LOGIC ---
 
 // Get the main body of the webpage and the button
 let bodyTag = document.body;
