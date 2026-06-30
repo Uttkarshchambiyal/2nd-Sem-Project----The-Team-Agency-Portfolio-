@@ -1,4 +1,4 @@
-/* --- Theme Variables --- */
+/* Sahil --- Theme Variables --- */
 [data-theme="light"] {
     --bg: #f9f9f9;
     --bg-card: #ffffff;
@@ -21,7 +21,7 @@
     --btn-text: #111111;
 }
 
-/* --- Base Styles --- */
+/*Sahil--- Base Styles --- */
 * {
     margin: 0;
     padding: 0;
@@ -49,7 +49,7 @@ a {
     color: inherit;
 }
 
-/* --- Header & Navigation --- */
+/* Sahil --- Header & Navigation --- */
 header {
     position: fixed;
     top: 0;
